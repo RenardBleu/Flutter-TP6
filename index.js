@@ -10,10 +10,10 @@ app.use(bodyParser.json());
 
 // Configuration de la connexion à MySQL
 const db = mysql.createConnection({
-  host: 'renardserveur.freeboxos.fr', // Remplacez par l'IP de votre serveur MySQL
-  user: 'iarenard',         // Nom d'utilisateur de la base de données
-  password: 'c*KM8Q%4W1aRMW',     // Mot de passe de la base de données
-  database: 'DBCoursAlexis'            // Nom de la base de données
+  host: '****', // Remplacez par l'IP de votre serveur MySQL
+  user: '****',         // Nom d'utilisateur de la base de données
+  password: '****',     // Mot de passe de la base de données
+  database: '****'            // Nom de la base de données
 });
 
 // Connexion à MySQL
